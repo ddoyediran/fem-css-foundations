@@ -1,0 +1,36 @@
+:root {
+  --color-primary: #ff7b54;
+  --color-text-on-primary: #ffffff;
+
+  --font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-text-on-primary);
+  font-family: var(--font-family);
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: inline-flex;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+}
+
+nav > ul li {
+  margin-inline-end: 36px;
+}
